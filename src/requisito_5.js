@@ -6,4 +6,4 @@ const inverteString = (string) => {
     return newString;
 }
 
-console.log(inverteString('Karine'))
+console.log(inverteString('Karine'));

@@ -5,7 +5,7 @@ const es = 27165.48;
 const outros = 19849.53;
 const total = sp + rj + mg + es + outros;
 
-const percentualPorEstado = (estado) => {
+const percentualPorEstado = () => {
     return `
  **** Percentual de representação por estado **********   
  São Paulo = ${(sp / total * 100).toFixed(2)} %
@@ -14,6 +14,6 @@ const percentualPorEstado = (estado) => {
  Espirito Santo = ${(es / total * 100).toFixed(2)} %
  Outros = ${(outros / total * 100).toFixed(2)} %
 `
-}
+};
 
 console.log(percentualPorEstado())
